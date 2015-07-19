@@ -8,7 +8,8 @@
               <p>
                   <?php $plxShow->erreurMessage(); ?>
               </p>
-              <img src="<?php $plxShow->template(); ?>/img/404.png" alt="">
+              
+              <h3 class="erreur_404">404</h3>
           </div>
         
                 

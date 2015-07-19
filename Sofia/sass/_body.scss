@@ -29,3 +29,9 @@ header{
     margin: 8px 0 15px 0;
     color: $primaire-light;
 }
+.erreur_404{
+    color: $secondaire;
+    font-size: $size * 9;
+    text-align: center;
+    letter-spacing: -14px;
+}
