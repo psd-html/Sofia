@@ -1,0 +1,31 @@
+/* style du template */
+
+body{
+    background-color: $body-color;
+    font-family: $police;
+    font-size: $size;
+    color: $primaire;
+}
+
+/* header du site avec la navigation */
+header{
+   padding: 30px 0 
+}
+
+/* mise en page du contenu du site */
+.page, .blog{
+    overflow: hidden;
+    @include animate(fade-in, .6s, 400ms)
+}
+.menu{@include animate(fade-in, .6s, 900ms)}   
+
+.green{
+    color: $secondaire
+}
+.center{
+    text-align: center;
+}
+.message{
+    margin: 8px 0 15px 0;
+    color: $primaire-light;
+}

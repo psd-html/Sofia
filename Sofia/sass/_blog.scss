@@ -1,0 +1,106 @@
+.blog, .page{
+    background-color: #fff;
+    @include box-shadow(0px 3px 4px 0px rgba(0,0,0,0.03));
+    
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    
+    .blog__category, .blog__category>a{
+        color: $secondaire;
+        font-size: $size * 1.6; 
+        line-height: $size * 2;
+    }
+    
+    .blog__date{
+        font-style: italic;
+        color: $primaire-light;
+        float: left;
+    }
+    
+    .blog__coms{
+        color: $primaire-light;
+        float: right;
+        
+        i{margin-right: 5px;}
+    }
+    
+    
+    p{
+        color: #444;
+    }
+    
+    h2.blog__title{
+        font-weight: 300;
+        letter-spacing: 1.5px;
+    }
+    
+     p.more{
+         text-align: center;
+         margin-top: 25px;
+     }  
+    h3{
+        margin-bottom: 8px;
+    }
+}
+
+.more>a{
+    font-size: $size!important;padding: 6px 8px;
+     -webkit-appearance: none;  // remove shadow in iOS
+    @include border-radius(0);  // remove border-radius in iOS
+
+    @include border-radius(5px);
+
+    background: $secondaire;
+    border: 1px solid $secondaire;
+    
+    color: #fff!important;  
+    font-size: $size * 1.2;
+
+    padding: 8px 12px;
+    text-decoration: none;
+    
+    @include transition(all 0.3s ease-in-out);
+    
+    
+    
+    &:hover {
+
+        background: none;
+        border: 1px solid $secondaire;
+        color: $secondaire!important;  
+
+        cursor: pointer;}
+    
+    &::before{
+        content: '\e040';
+        font-family: flaticon;
+        font-style: normal;
+        margin-right: 5px;
+
+    }
+
+}
+.blog__page{
+    nav.blog__page__navigation{
+        text-align: center;
+        margin-bottom: 10px;
+        
+        & span.p_next, & span.p_prev{
+            color: $secondaire;
+            margin: 0 10px;
+            
+            a{
+                font-size: $size
+            }
+
+        }
+    }
+    
+    span.rss::before{
+        content: "\e09f";
+        font-family: flaticon;
+        font-style: normal;
+        margin-right: 5px;
+    }
+}
