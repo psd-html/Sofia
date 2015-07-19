@@ -4,6 +4,7 @@ Template responsive
 
 Compatible avec la version 5.4
 
+Voir la démo à cette adresse: http://nextum.fr
 
 Utlisation du Framework-responsive-PluXml
 
