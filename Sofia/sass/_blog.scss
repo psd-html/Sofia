@@ -30,9 +30,10 @@
         color: #444;
     }
     
-    h2.blog__title{
+    h2.blog__title, h2.blog__title a{
         font-weight: 300;
         letter-spacing: 1.5px;
+        color: $primaire;
     }
     
      p.more{
