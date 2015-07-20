@@ -6,7 +6,7 @@
               <h3 class="blog__category">#<?php $plxShow->artCat() ?></h3>
               <h2 class="blog__title"><?php $plxShow->artTitle(); ?></h2>
               <p>
-                <span class="blog__date"><?php $plxShow->artDate('#num_day #month #num_year(4)'); ?></span>  
+                <span class="blog__date"><?php $plxShow->artDate('#num_day #month #num_year(4)'); ?> <?php $plxShow->lang('WRITTEN_BY'); ?> <?php $plxShow->artAuthor() ?></span>  
               </p>
               
               <div class="cb"></div>
