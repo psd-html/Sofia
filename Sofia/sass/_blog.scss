@@ -19,10 +19,12 @@
     }
     
     .blog__coms{
-        color: $primaire-light;
+        
         float: right;
         
-        i{margin-right: 5px;}
+        i{margin-right: 5px;color: $primaire-light!important;}
+        
+        a{color: $primaire-light!important;}
     }
     
     
@@ -34,6 +36,7 @@
         font-weight: 300;
         letter-spacing: 1.5px;
         color: $primaire;
+        margin-bottom: 30px;
     }
     
      p.more{

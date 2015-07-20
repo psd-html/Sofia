@@ -782,7 +782,6 @@ blockquote:before {
     }
 
 pre {
-    background: #EEE;
     padding: 5px;
     border-left: 5px solid $primaire;
 }
@@ -797,3 +796,4 @@ td{
     border-bottom: 1px solid #ccc;
     padding: 6px 8px;
 } 
+td:hover{background: $secondaire;color: #fff}

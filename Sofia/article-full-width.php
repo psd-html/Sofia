@@ -9,6 +9,8 @@
                 <span class="blog__date"><?php $plxShow->artDate('#num_day #month #num_year(4)'); ?></span>  
               </p>
               
+              <div class="cb"></div>
+              
                   <?php $plxShow->artContent(); ?>
 
               
