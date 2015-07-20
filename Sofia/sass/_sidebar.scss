@@ -39,7 +39,7 @@ aside{
         
          ul li.tag{
             background: $secondaire;padding: 2px 5px;display:  inline-block;color: #fff;margin-right: 5px;
-             @include transition(all 0.3s ease-in-out);margin: 0 3px;
+             @include transition(all 0.3s ease-in-out);margin: 3px;
              
              &:hover{
                  background-color: transparent;color: $secondaire
