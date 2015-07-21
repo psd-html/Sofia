@@ -14,8 +14,8 @@
 					<time datetime="<?php $plxShow->comDate('#num_year(4)-#num_month-#num_day #hour:#minute'); ?>"><?php $plxShow->comDate('#day #num_day #month #num_year(4) - #hour:#minute'); ?></time>
 
 			</p>
-			<blockquote>
-				<p class="content_com type-<?php $plxShow->comType(); ?>">
+			<blockquote class="<?php $plxShow->comType(); ?>">
+				<p class="content_com type">
 				    <?php $plxShow->comContent(); ?>
 				    <cite>Commentaire de <?php $plxShow->comAuthor('link'); ?></cite>
 				</p>

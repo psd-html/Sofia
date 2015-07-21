@@ -762,19 +762,24 @@ ul,li,td{
 ul ol{
     list-style-type: value;
 }
-blockquote {
+blockquote{
     border-left: 10px solid $primaire;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
+    position: relative;
         p {
     display: inline;
     font-size: $size;
         }
     }
 
+blockquote.admin{
+    background-color: #f5f5f5;
+    
+}
+
 blockquote:before {
-    content: open-quote;
+    content: '"';
     font-size: $size * 1.2;
     line-height: $size * 1.4;
     margin-right: 0.25em;
