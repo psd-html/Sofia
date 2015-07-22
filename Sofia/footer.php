@@ -4,7 +4,7 @@
              <h2><?php $plxShow->mainTitle('link'); ?></h2>
              <a href="<?php $plxShow->urlRewrite('#top') ?>"><span class="flaticon-come"></span></a>
              <p class="copyright">
-                Page générée <?php $plxShow->lang('IN') ?>&nbsp;<?php $plxShow->chrono(); ?>&nbsp; utilisant la technologie <a href="https://github.com/psd-html">SASS</a> 
+                Page générée <?php $plxShow->lang('IN') ?>&nbsp;<?php $plxShow->chrono(); ?>&nbsp; utilisant la technologie <a href="http://libertea.fr" title="framework pluxml">SASS</a> 
                 <i class="flaticon-lock4"> </i>
                 <a rel="nofollow" href="<?php $plxShow->urlRewrite('core/admin/'); ?>" title="<?php $plxShow->lang('ADMINISTRATION') ?>"><?php $plxShow->lang('ADMINISTRATION') ?></a>
                   <i class="flaticon-accepted"> </i>
