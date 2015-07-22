@@ -79,9 +79,9 @@
 
 }
 
-.menu a:hover, .menu li.active>a{ color: $secondaire!important}
+.menu a:hover, .menu li.active>a, .menu li a.active{ color: $secondaire!important}
 
-.menu li.active>a{text-decoration: line-through}
+.menu li.active>a, .menu li a.active{text-decoration: line-through}
 
 .menu ul li a {
 	font-weight: 700;
