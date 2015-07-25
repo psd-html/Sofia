@@ -15,8 +15,10 @@
 
               
               <div class="blog__auteur">
-                 <h3>Information sur l'auteur de l'article</h3>
-                  <?php $plxShow->artAuthorInfos('#art_authorinfos'); ?>
+                 <h3>Information sur  <?php $plxShow->artAuthor() ?> auteur de l'article</h3>
+                  <pre>
+                     <?php $plxShow->artAuthorInfos('#art_authorinfos'); ?> 
+                  </pre>
               </div>
               
               <?php include(dirname(__FILE__).'/commentaires.php'); ?>
