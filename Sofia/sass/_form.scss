@@ -71,3 +71,28 @@ input[type='submit'], .bt {
         margin-right: 7px
     }
 }
+
+/* pour l'indentation des commentaires */
+.level-0 {
+	margin-left: 0;
+}
+.level-1 {
+	margin-left: 50px;
+}
+.level-2 {
+	margin-left: 100px;
+}
+.level-3 {
+	margin-left: 150px;
+}
+.level-4 {
+	margin-left: 200px;
+}
+.level-5 {
+	margin-left: 250px;
+}
+
+
+a.bt_repondre{
+    display:block;text-align: right;
+}

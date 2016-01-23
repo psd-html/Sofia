@@ -8,6 +8,9 @@
               <h3 class="blog__category">#<?php $plxShow->artCat() ?></h3>
               <h2 class="blog__title"><?php $plxShow->artTitle('link'); ?></h2>
               
+                  <!-- Afficher l'image d'accroche -->
+                  <?php $plxShow->artThumbnail(); ?>
+              
                   <?php $plxShow->artChapo('Lire la suite'); ?>
               
               
